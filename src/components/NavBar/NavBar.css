@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  padding: 14px 20px; /* Adjust padding as needed */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+.nav-links li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Align logo and brand text vertically */
+  justify-content: flex-start; /* Align brand section to the left */
+}
+
+.navbar-logo {
+  z-index: 10;
+  height: 50px; /* Adjust the size as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some space between logo and the next element */
+}

@@ -1,0 +1,59 @@
+/* TypingAnimation.css */
+
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full height of the viewport */
+    text-align: center;
+  }
+  
+  .typing-animation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    align-content: center;
+    margin: 0 auto; /* Reset default margin */
+  }
+  
+  .cursor {
+    border-right: 2px solid;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .presentation-text {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed to position below the NavBar */
+    text-align: justify;
+    text-align-last: center;
+    font-family: 'Fira Code', monospace;
+    
+  }
+  
+  .presentation-text h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between the h1 and the paragraph */
+  }
+  
+  .presentation-text p {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .resume-container {
+    margin-left: 32%;
+    max-width: 35%;
+    margin-top: 20px; /* Adjust the margin as needed to position below the NavBar */
+    text-align: justify;
+    text-align-last: center;
+    overflow: hidden;
+    
+  }

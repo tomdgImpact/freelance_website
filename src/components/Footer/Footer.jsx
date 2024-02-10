@@ -25,6 +25,8 @@ function Footer() {
             ImpactSec#2523
           </li>
         </ul>
+        <hr className="footer-line" />
+        <p>© Copyright 2024. Made by Tom Durand-Gasselin</p>
       </div>
     </footer>
   );

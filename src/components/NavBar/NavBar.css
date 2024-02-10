@@ -8,6 +8,13 @@
   overflow: hidden;
 }
 
+.nav-item {
+  padding: 7px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: white; /* Example color */
+}
+
 .nav-links {
   list-style-type: none;
   display: flex;
@@ -29,6 +36,7 @@
   background-color: #ddd;
   color: black;
 }
+
 .navbar-brand {
   display: flex;
   align-items: center; /* Align logo and brand text vertically */

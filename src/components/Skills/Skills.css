@@ -1,0 +1,54 @@
+.skills-page {
+    background-color: white; /* Set background to white */
+    color: black; /* Set text color to black for enough contrast */
+    padding: 2rem; /* Add some padding */
+    text-align: center; /* Center the text */
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Big, bold header size */
+    margin-bottom: 1rem;
+  }
+  
+  .intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 32%;
+    max-width: 35%;
+    font-family: 'Fira Code', monospace;
+    overflow: hidden;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Create a responsive grid */
+    gap: 0rem; /* Add space between items */
+    justify-content: center; /* Center content vertically */;
+    padding: 0rem;
+    max-width: 700px; /* Set a max-width for the container */
+    margin: 0 auto; /* This will center the container if it's smaller than the max-width */
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column; /* Stack icon and text */
+    align-items: center; /* Center align items */
+  }
+  
+  .skill img {
+    max-width: 50px; /* Limit the size of the icon */
+    margin-bottom: 0.5rem; /* Add space between icon and text */
+  }
+  
+  .skill span {
+    font-size: 0.85rem;
+  }
